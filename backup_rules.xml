@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<full-backup-content>
-    <include domain="file" path="books/" />
-    <include domain="file" path="covers/" />
-    <exclude domain="file" path="audio_cache/" />
-    <exclude domain="database" path="metro_reader.db-shm" />
-    <exclude domain="database" path="metro_reader.db-wal" />
-</full-backup-content>

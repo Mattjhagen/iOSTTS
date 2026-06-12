@@ -1,0 +1,18 @@
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Xcode
+build/
+DerivedData/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcworkspace/xcshareddata/SwiftPM/Package.resolved
+*.xcodeproj/project.xcworkspace/xcshareddata/SwiftPM/Package.resolved
+*.xcodeproj/xcshareddata/xcschemes/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Packages/
