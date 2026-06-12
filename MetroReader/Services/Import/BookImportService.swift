@@ -73,7 +73,7 @@ final class BookImportService: ObservableObject {
                 publisher: metadata.publisher,
                 language: metadata.language,
                 isbn: metadata.isbn,
-                description: metadata.description,
+                bookDescription: metadata.description,
                 format: format,
                 filePath: relativePath,
                 coverData: metadata.coverData,

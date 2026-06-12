@@ -239,7 +239,7 @@ final class PDFParser: BookParser, @unchecked Sendable {
     func supports(format: BookFormat) -> Bool { format == .pdf }
 
     func parseMetadata(from url: URL, format: BookFormat) async throws -> BookMetadata {
-        return await Task.detached(priority: .userInitiated) {
+        return try await Task.detached(priority: .userInitiated) {
             guard let doc = PDFDocument(url: url) else {
                 throw ImportError.parseFailure("Cannot open PDF")
             }
@@ -512,7 +512,7 @@ final class ZipArchive: @unchecked Sendable {
                 stream.next_in = UnsafeMutablePointer(mutating: srcPtr.bindMemory(to: Bytef.self).baseAddress!)
                 stream.avail_in = uInt(data.count)
                 stream.next_out = destPtr.bindMemory(to: Bytef.self).baseAddress!
-                stream.avail_out = uInt(decompressed.count)
+                stream.avail_out = uInt(destPtr.count)
                 inflateInit2_(&stream, -15, ZLIB_VERSION, Int32(MemoryLayout<z_stream>.size))
                 let status = inflate(&stream, Z_FINISH)
                 inflateEnd(&stream)

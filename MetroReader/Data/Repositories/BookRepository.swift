@@ -7,7 +7,7 @@ import Foundation
 @MainActor
 final class BookRepository {
 
-    private let modelContext: ModelContext
+    let modelContext: ModelContext
 
     init(modelContext: ModelContext) {
         self.modelContext = modelContext

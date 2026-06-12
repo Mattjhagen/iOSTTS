@@ -3,6 +3,7 @@
 
 import SwiftUI
 import AVFoundation
+import SwiftData
 
 struct AudioView: View {
 

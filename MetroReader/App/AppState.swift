@@ -20,8 +20,8 @@ final class AppState: ObservableObject {
     @AppStorage("marginHorizontal")  var marginHorizontal: Double = 20.0
     @AppStorage("readerTheme")       var readerThemeRaw: String = ReaderThemeMode.dark.rawValue
     @AppStorage("keepScreenOn")      var keepScreenOn: Bool = true
-    @AppStorage("ttsSpeed")          var ttsSpeed: Float = 1.0
-    @AppStorage("ttsPitch")          var ttsPitch: Float = 1.0
+    @AppStorage("ttsSpeed")          var ttsSpeed: Double = 1.0
+    @AppStorage("ttsPitch")          var ttsPitch: Double = 1.0
     @AppStorage("ttsVoiceIdentifier") var ttsVoiceIdentifier: String = ""
     @AppStorage("highlightSentence") var highlightSentence: Bool = true
     @AppStorage("autoScroll")        var autoScroll: Bool = true

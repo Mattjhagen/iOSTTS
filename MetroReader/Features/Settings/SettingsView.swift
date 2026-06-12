@@ -171,10 +171,7 @@ struct SettingsView: View {
                         icon: "speedometer",
                         title: "Narration Speed",
                         displayValue: String(format: "%.2fx", appState.ttsSpeed),
-                        value: Binding(
-                            get: { Double(appState.ttsSpeed) },
-                            set: { appState.ttsSpeed = Float($0) }
-                        ),
+                        value: $appState.ttsSpeed,
                         range: 0.1...1.0,
                         step: 0.05
                     )
@@ -183,10 +180,7 @@ struct SettingsView: View {
                         icon: "waveform",
                         title: "Voice Pitch",
                         displayValue: String(format: "%.1f", appState.ttsPitch),
-                        value: Binding(
-                            get: { Double(appState.ttsPitch) },
-                            set: { appState.ttsPitch = Float($0) }
-                        ),
+                        value: $appState.ttsPitch,
                         range: 0.5...2.0,
                         step: 0.1
                     )

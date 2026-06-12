@@ -82,8 +82,9 @@ struct MetroLoadingDots: View {
                     .animation(.easeInOut(duration: 0.4).delay(Double(i) * 0.15), value: phase)
             }
         }
-        .onAppear {
-            Timer.scheduledTimer(withTimeInterval: 0.45, repeats: true) { _ in
+        .task {
+            while !Task.isCancelled {
+                try? await Task.sleep(nanoseconds: 450_000_000)
                 phase = (phase + 1) % 3
             }
         }

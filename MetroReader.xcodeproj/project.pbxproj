@@ -7,120 +7,373 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A001 /* MetroReaderApp.swift */ = {isa = PBXBuildFile; fileRef = F001; };
-		A002 /* ContentView.swift */ = {isa = PBXBuildFile; fileRef = F002; };
-		A003 /* Assets.xcassets */ = {isa = PBXBuildFile; fileRef = F003; };
-		A004 /* Info.plist */ = {isa = PBXBuildFile; fileRef = F004; };
+		0907D5D0B527D458D016BB63 /* MetroReaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79A58B26648A6E67B90E195 /* MetroReaderApp.swift */; };
+		0C7F8D687E06F1A21327EA03 /* BookImportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9853C02020524C5CC7AC069 /* BookImportService.swift */; };
+		0CB7D6E2E8449E47FBD4A9DE /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF212B13AC6F6348C0CEE645 /* SettingsView.swift */; };
+		2929A1B9C5D8DBFD0F2AE348 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D8E2F2727EADAE43FAD91E /* AppState.swift */; };
+		337B2CC95B909478F02EED76 /* MetroTypography.swift in Sources */ = {isa = PBXBuildFile; fileRef = D273E7F01ED1DC0452B483C8 /* MetroTypography.swift */; };
+		3F16BA88FD1C0D516EA900E3 /* LibraryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4425B26997D61D76389AD737 /* LibraryViewModel.swift */; };
+		440873827BF9943281EB4522 /* BookModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13688E1C8CC9775165000411 /* BookModels.swift */; };
+		4F79BDEB4667283B8BD6DC80 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93884C053DED5B7D3AF78F05 /* HomeView.swift */; };
+		67F3B768F173BCD6CAE59C51 /* BookContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79D9CD9D41A6347F7B5B479 /* BookContent.swift */; };
+		6ED404B50927472918DA4AC6 /* AudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515400FBD9D266ACF901E2FE /* AudioView.swift */; };
+		7A29B48E6C2824498F197CBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0323B49BB81963F023797E86 /* Assets.xcassets */; };
+		7B02D60067AE532CEF430E5E /* MetroColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EECAF27123A8B64FCCF1470 /* MetroColors.swift */; };
+		A625BF55A125C2C05C8119F3 /* MetroTTSEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CC86D52D9B291AC2BC17E0 /* MetroTTSEngine.swift */; };
+		A7D30D9920D1B7F6BB56B1F2 /* MetroComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB97B3F2FC3476607C119F61 /* MetroComponents.swift */; };
+		B36C074CE7D0E9C0E74B98BF /* RootNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E068C631C1AE560B34B0332B /* RootNavigationView.swift */; };
+		B7CF735104AF3D6D6FC33494 /* BookParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE381A5CADDF7400BF90EFF8 /* BookParser.swift */; };
+		BD20BA10B72AE4D4CDDBE8BE /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469215DB196C6FEC0C4ED7D3 /* LibraryView.swift */; };
+		BF5D412FEA19E2B7E3FA1EEE /* ReaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2D9CFCF5C0E9C5DFA34246 /* ReaderViewModel.swift */; };
+		C9B1667EDCF1DF41B5731B5C /* BookRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A2FA0CE69447C15938749D /* BookRepository.swift */; };
+		CAF65EA1FA19C47E9D702536 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE7C00AEC423935C2314300 /* ContentView.swift */; };
+		D286686CAE3D55AC48840325 /* AudioViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476FC7631C8C27425ED74788 /* AudioViewModel.swift */; };
+		DC68E4C1A11191D33DAB0222 /* MetroReaderSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332AA93A3E116D9E97D15358 /* MetroReaderSchema.swift */; };
+		E79F236BFA4BAA3CACEFCFB6 /* ReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D127CDE906A3B6DD075C89 /* ReaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F001 /* MetroReaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetroReaderApp.swift; sourceTree = "<group>"; };
-		F002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		F003 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FPROJ /* MetroReader.xcodeproj */ = {isa = PBXFileReference; explicitFileType = "wrapper.pb-project"; path = MetroReader.xcodeproj; sourceTree = SOURCE_ROOT; };
+		0323B49BB81963F023797E86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13688E1C8CC9775165000411 /* BookModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookModels.swift; sourceTree = "<group>"; };
+		2A2D9CFCF5C0E9C5DFA34246 /* ReaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderViewModel.swift; sourceTree = "<group>"; };
+		332AA93A3E116D9E97D15358 /* MetroReaderSchema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetroReaderSchema.swift; sourceTree = "<group>"; };
+		37D127CDE906A3B6DD075C89 /* ReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderView.swift; sourceTree = "<group>"; };
+		4425B26997D61D76389AD737 /* LibraryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewModel.swift; sourceTree = "<group>"; };
+		469215DB196C6FEC0C4ED7D3 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		476FC7631C8C27425ED74788 /* AudioViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioViewModel.swift; sourceTree = "<group>"; };
+		515400FBD9D266ACF901E2FE /* AudioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioView.swift; sourceTree = "<group>"; };
+		58A2FA0CE69447C15938749D /* BookRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookRepository.swift; sourceTree = "<group>"; };
+		66D8E2F2727EADAE43FAD91E /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		6EECAF27123A8B64FCCF1470 /* MetroColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetroColors.swift; sourceTree = "<group>"; };
+		7D5030B77955B21BDB2EE42C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		93884C053DED5B7D3AF78F05 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		98CC86D52D9B291AC2BC17E0 /* MetroTTSEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetroTTSEngine.swift; sourceTree = "<group>"; };
+		A79D9CD9D41A6347F7B5B479 /* BookContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookContent.swift; sourceTree = "<group>"; };
+		A9853C02020524C5CC7AC069 /* BookImportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookImportService.swift; sourceTree = "<group>"; };
+		AFE7C00AEC423935C2314300 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B3E5A3518239EA95413C8566 /* MetroReader.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = MetroReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D273E7F01ED1DC0452B483C8 /* MetroTypography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetroTypography.swift; sourceTree = "<group>"; };
+		DE381A5CADDF7400BF90EFF8 /* BookParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookParser.swift; sourceTree = "<group>"; };
+		DF212B13AC6F6348C0CEE645 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		E068C631C1AE560B34B0332B /* RootNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootNavigationView.swift; sourceTree = "<group>"; };
+		E79A58B26648A6E67B90E195 /* MetroReaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetroReaderApp.swift; sourceTree = "<group>"; };
+		EB97B3F2FC3476607C119F61 /* MetroComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetroComponents.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-		MAINGROUP = {
+		0F2D39C55E4013FD8CC9AD06 /* Persistence */ = {
 			isa = PBXGroup;
 			children = (
-				SRCGROUP,
-				F003,
-				F004,
+				332AA93A3E116D9E97D15358 /* MetroReaderSchema.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		3357DC2C534F0ED568278860 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				515400FBD9D266ACF901E2FE /* AudioView.swift */,
+				476FC7631C8C27425ED74788 /* AudioViewModel.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		39372E1079BCA5A45B48C330 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				DF212B13AC6F6348C0CEE645 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		3B01DB167563D3B28B8F85FB /* Reader */ = {
+			isa = PBXGroup;
+			children = (
+				37D127CDE906A3B6DD075C89 /* ReaderView.swift */,
+				2A2D9CFCF5C0E9C5DFA34246 /* ReaderViewModel.swift */,
+			);
+			path = Reader;
+			sourceTree = "<group>";
+		};
+		450334EFF58704B8C6EC5E14 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				6EECAF27123A8B64FCCF1470 /* MetroColors.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		5C62FA89A73FC676368A7A11 /* Import */ = {
+			isa = PBXGroup;
+			children = (
+				A9853C02020524C5CC7AC069 /* BookImportService.swift */,
+			);
+			path = Import;
+			sourceTree = "<group>";
+		};
+		5CF3711C265733BD8304CBE3 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				450334EFF58704B8C6EC5E14 /* Colors */,
+				89B27D644D70A39C42FEDECD /* Components */,
+				60BC2592360C6484B995E9BC /* Typography */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		5EADD65A0153630BBF86DB04 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				58A2FA0CE69447C15938749D /* BookRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		60BC2592360C6484B995E9BC /* Typography */ = {
+			isa = PBXGroup;
+			children = (
+				D273E7F01ED1DC0452B483C8 /* MetroTypography.swift */,
+			);
+			path = Typography;
+			sourceTree = "<group>";
+		};
+		689808DCD9DF70E67F6A7A13 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				66D8E2F2727EADAE43FAD91E /* AppState.swift */,
+				7D5030B77955B21BDB2EE42C /* Info.plist */,
+				E79A58B26648A6E67B90E195 /* MetroReaderApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		753AF454E61FEDE8728885C5 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E167540398DFE79F4D7100B5 /* Models */,
+				0F2D39C55E4013FD8CC9AD06 /* Persistence */,
+				5EADD65A0153630BBF86DB04 /* Repositories */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		7BDC0447110A879E908D323C /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				3357DC2C534F0ED568278860 /* Audio */,
+				7CD4799D7901378B332BC4A0 /* Library */,
+				3B01DB167563D3B28B8F85FB /* Reader */,
+				39372E1079BCA5A45B48C330 /* Settings */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		7CD4799D7901378B332BC4A0 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				93884C053DED5B7D3AF78F05 /* HomeView.swift */,
+				469215DB196C6FEC0C4ED7D3 /* LibraryView.swift */,
+				4425B26997D61D76389AD737 /* LibraryViewModel.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		7FCABA4A270A9A09FD87EDC4 /* TTS */ = {
+			isa = PBXGroup;
+			children = (
+				98CC86D52D9B291AC2BC17E0 /* MetroTTSEngine.swift */,
+			);
+			path = TTS;
+			sourceTree = "<group>";
+		};
+		89B27D644D70A39C42FEDECD /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				EB97B3F2FC3476607C119F61 /* MetroComponents.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		8B16F99E94E46CE3C918450C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5C62FA89A73FC676368A7A11 /* Import */,
+				7FCABA4A270A9A09FD87EDC4 /* TTS */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8CC1D4FD89643D83B01E4D00 = {
+			isa = PBXGroup;
+			children = (
+				E995F5D2E293FD3254BB118D /* MetroReader */,
+				B2150CD8F220D13260A5C522 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		SRCGROUP = {
+		962F78DA8667589D649C7D32 /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
-				F001,
-				F002,
+				E068C631C1AE560B34B0332B /* RootNavigationView.swift */,
 			);
-			name = Sources;
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		B2150CD8F220D13260A5C522 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3E5A3518239EA95413C8566 /* MetroReader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9CE33E684F1153DF6F9908C /* Parsers */ = {
+			isa = PBXGroup;
+			children = (
+				DE381A5CADDF7400BF90EFF8 /* BookParser.swift */,
+			);
+			path = Parsers;
+			sourceTree = "<group>";
+		};
+		E167540398DFE79F4D7100B5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A79D9CD9D41A6347F7B5B479 /* BookContent.swift */,
+				13688E1C8CC9775165000411 /* BookModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E995F5D2E293FD3254BB118D /* MetroReader */ = {
+			isa = PBXGroup;
+			children = (
+				AFE7C00AEC423935C2314300 /* ContentView.swift */,
+				689808DCD9DF70E67F6A7A13 /* App */,
+				753AF454E61FEDE8728885C5 /* Data */,
+				5CF3711C265733BD8304CBE3 /* DesignSystem */,
+				7BDC0447110A879E908D323C /* Features */,
+				962F78DA8667589D649C7D32 /* Navigation */,
+				D9CE33E684F1153DF6F9908C /* Parsers */,
+				EE10B5720BB2BD72CC7BC197 /* Resources */,
+				8B16F99E94E46CE3C918450C /* Services */,
+			);
+			path = MetroReader;
+			sourceTree = "<group>";
+		};
+		EE10B5720BB2BD72CC7BC197 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0323B49BB81963F023797E86 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		TARGET1 = {
+		0F5B82264DE88170EF17ED9A /* MetroReader */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BUILDCFG;
+			buildConfigurationList = 146F6D8DD742FBDD5DA2315D /* Build configuration list for PBXNativeTarget "MetroReader" */;
 			buildPhases = (
-				SOURCEPHASE,
-				RESOURCEPHASE,
+				53854B79A49FA5FF2210FF9D /* Sources */,
+				D3F2383A1CE0959F346EB375 /* Resources */,
 			);
-			buildRules = ();
-			dependencies = ();
+			buildRules = (
+			);
+			dependencies = (
+			);
 			name = MetroReader;
+			packageProductDependencies = (
+			);
 			productName = MetroReader;
+			productReference = B3E5A3518239EA95413C8566 /* MetroReader.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		PROJECT = {
+		752DB944DC7B9683C1B2EC9C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1600;
-				LastUpgradeCheck = 1600;
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					TARGET1 = {
-						CreatedOnToolsVersion = 16.0;
+					0F5B82264DE88170EF17ED9A = {
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = PROJCFG;
-			compatibilityVersion = "Xcode 14.0";
+			buildConfigurationList = 8E1657DF2123D97EBE770D7F /* Build configuration list for PBXProject "MetroReader" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
-			mainGroup = MAINGROUP;
-			productRefGroup = MAINGROUP;
+			mainGroup = 8CC1D4FD89643D83B01E4D00;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B2150CD8F220D13260A5C522 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				TARGET1,
+				0F5B82264DE88170EF17ED9A /* MetroReader */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXSourcesBuildPhase section */
-		SOURCEPHASE = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A001,
-				A002,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
 /* Begin PBXResourcesBuildPhase section */
-		RESOURCEPHASE = {
+		D3F2383A1CE0959F346EB375 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A003,
+				7A29B48E6C2824498F197CBD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXSourcesBuildPhase section */
+		53854B79A49FA5FF2210FF9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2929A1B9C5D8DBFD0F2AE348 /* AppState.swift in Sources */,
+				6ED404B50927472918DA4AC6 /* AudioView.swift in Sources */,
+				D286686CAE3D55AC48840325 /* AudioViewModel.swift in Sources */,
+				67F3B768F173BCD6CAE59C51 /* BookContent.swift in Sources */,
+				0C7F8D687E06F1A21327EA03 /* BookImportService.swift in Sources */,
+				440873827BF9943281EB4522 /* BookModels.swift in Sources */,
+				B7CF735104AF3D6D6FC33494 /* BookParser.swift in Sources */,
+				C9B1667EDCF1DF41B5731B5C /* BookRepository.swift in Sources */,
+				CAF65EA1FA19C47E9D702536 /* ContentView.swift in Sources */,
+				4F79BDEB4667283B8BD6DC80 /* HomeView.swift in Sources */,
+				BD20BA10B72AE4D4CDDBE8BE /* LibraryView.swift in Sources */,
+				3F16BA88FD1C0D516EA900E3 /* LibraryViewModel.swift in Sources */,
+				7B02D60067AE532CEF430E5E /* MetroColors.swift in Sources */,
+				A7D30D9920D1B7F6BB56B1F2 /* MetroComponents.swift in Sources */,
+				0907D5D0B527D458D016BB63 /* MetroReaderApp.swift in Sources */,
+				DC68E4C1A11191D33DAB0222 /* MetroReaderSchema.swift in Sources */,
+				A625BF55A125C2C05C8119F3 /* MetroTTSEngine.swift in Sources */,
+				337B2CC95B909478F02EED76 /* MetroTypography.swift in Sources */,
+				E79F236BFA4BAA3CACEFCFB6 /* ReaderView.swift in Sources */,
+				BF5D412FEA19E2B7E3FA1EEE /* ReaderViewModel.swift in Sources */,
+				B36C074CE7D0E9C0E74B98BF /* RootNavigationView.swift in Sources */,
+				0CB7D6E2E8449E47FBD4A9DE /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
 /* Begin XCBuildConfiguration section */
-		DEBUG1 = {
+		389395C3004E430BA0AECE51 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -136,7 +389,86 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_CYCLE = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		3F396BF3CE53EE6C7E590C61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MetroReader/Preview Content\"";
+				INFOPLIST_FILE = MetroReader/App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.metroreader.MetroReader;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5111BF9F95E94D7C0E69476E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
@@ -150,14 +482,13 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
 					"$(inherited)",
+					"DEBUG=1",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -165,128 +496,63 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 6.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		RELEASE1 = {
+		658234E76766570371B7DC31 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MetroReader/Preview Content\"";
+				INFOPLIST_FILE = MetroReader/App/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				MTL_FAST_MATH = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.metroreader.MetroReader;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 6.0;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		TDEBUG = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MetroReader/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "MetroReader/App/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.metroreader.app;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
-		};
-		TRELEASE = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MetroReader/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "MetroReader/App/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.metroreader.app;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 6.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		PROJCFG = {
+		146F6D8DD742FBDD5DA2315D /* Build configuration list for PBXNativeTarget "MetroReader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DEBUG1,
-				RELEASE1,
+				658234E76766570371B7DC31 /* Debug */,
+				3F396BF3CE53EE6C7E590C61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
-		BUILDCFG = {
+		8E1657DF2123D97EBE770D7F /* Build configuration list for PBXProject "MetroReader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				TDEBUG,
-				TRELEASE,
+				5111BF9F95E94D7C0E69476E /* Debug */,
+				389395C3004E430BA0AECE51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
-
 	};
-	rootObject = PROJECT;
+	rootObject = 752DB944DC7B9683C1B2EC9C /* Project object */;
 }

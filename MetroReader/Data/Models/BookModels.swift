@@ -39,7 +39,7 @@ final class Book {
     var publisher: String
     var language: String
     var isbn: String
-    var description: String
+    var bookDescription: String
     var formatRaw: String
     var filePath: String          // Relative path in app's Documents directory
     var coverData: Data?          // JPEG thumbnail cached locally
@@ -71,7 +71,7 @@ final class Book {
         publisher: String = "",
         language: String = "en",
         isbn: String = "",
-        description: String = "",
+        bookDescription: String = "",
         format: BookFormat,
         filePath: String,
         coverData: Data? = nil,
@@ -86,7 +86,7 @@ final class Book {
         self.publisher = publisher
         self.language = language
         self.isbn = isbn
-        self.description = description
+        self.bookDescription = bookDescription
         self.formatRaw = format.rawValue
         self.filePath = filePath
         self.coverData = coverData
