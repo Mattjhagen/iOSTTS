@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Metro Reader</string>
+    <string name="library">Library</string>
+    <string name="reader">Reader</string>
+    <string name="audio">Audio</string>
+    <string name="settings">Settings</string>
+    <string name="recently_read">Recently Read</string>
+    <string name="currently_listening">Currently Listening</string>
+    <string name="bookmarks">Bookmarks</string>
+    <string name="downloads">Downloads</string>
+    <string name="import_book">Import Book</string>
+    <string name="no_books">No books yet.\nTap + to import your first book.</string>
+    <string name="tts_channel_name">Metro Reader Playback</string>
+    <string name="tts_channel_desc">Text-to-Speech audiobook playback</string>
+</resources>

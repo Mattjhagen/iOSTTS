@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Metro Reader logo: open book icon -->
+    <path
+        android:fillColor="#0078D4"
+        android:pathData="M54,20 L20,32 L20,80 L54,68 L88,80 L88,32 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,22 L54,70 M22,34 L52,24 L52,72 L22,82 Z"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M56,24 L86,34 L86,82 L56,72 Z"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2" />
+</vector>

@@ -1,0 +1,229 @@
+# Build Native iOS Version of Metro Reader
+
+Using the completed Android implementation as the functional specification, create a fully native iOS application called Metro Reader.
+
+Do NOT create a cross-platform application.
+
+Build specifically for:
+
+- iPhone
+- iPad
+- iOS 18+
+- iPadOS 18+
+
+Use:
+
+- Swift 6
+- SwiftUI
+- MVVM Architecture
+- SwiftData
+- Combine
+- AVFoundation
+- NaturalLanguage Framework
+- PDFKit
+- EPUB parsing libraries where needed
+
+## Goal
+
+Create the iOS equivalent of the Android Metro Reader app.
+
+All features, workflows, data models, and user experiences should match the Android version unless a platform-native approach would provide a superior experience.
+
+The application should feel like a blend of:
+
+- Classic Windows Phone Metro
+- Modern Apple Books
+- Premium reading applications
+
+Typography is the primary design element.
+
+Use the same typeface strategy as the Android version.
+
+## Supported Formats
+
+Import and read:
+
+- EPUB
+- PDF
+- TXT
+- HTML
+- MOBI
+- AZW3
+
+Support:
+
+- Files app
+- Drag and drop
+- AirDrop
+- Share Sheet
+- Open In
+
+## Library Features
+
+Store books locally.
+
+Generate:
+
+- Cover art
+- Metadata
+- Author information
+- Reading statistics
+- Reading progress
+
+Maintain:
+
+- Bookmarks
+- Notes
+- Highlights
+- Last position
+
+## Reader
+
+Provide a premium reading experience.
+
+Features:
+
+- Dynamic Type support
+- Adjustable font size
+- Adjustable margins
+- Adjustable line spacing
+- Dark mode
+- AMOLED mode
+- Sepia mode
+- Landscape support
+- Portrait support
+
+Support:
+
+- Table of contents
+- Internal links
+- Footnotes
+- Images
+
+## Audiobook Mode
+
+Convert any imported ebook into an audiobook.
+
+Use:
+
+- AVSpeechSynthesizer
+- Apple Neural Voices
+- Offline voices
+
+Controls:
+
+- Play
+- Pause
+- Resume
+- Seek
+- Previous chapter
+- Next chapter
+
+Voice Settings:
+
+- Voice selection
+- Speed
+- Pitch
+
+## Reading Synchronization
+
+While narration is active:
+
+- Highlight spoken sentence
+- Auto-scroll content
+- Maintain reading position
+- Synchronize audio and text
+
+Provide an experience similar to Apple Books Read Aloud.
+
+## Audio Caching
+
+Optional feature:
+
+Generate audiobook files from chapters.
+
+Support:
+
+- AAC
+- M4A
+
+Allow:
+
+- Offline playback
+- Cache management
+- Storage monitoring
+
+## UI Design
+
+Metro-inspired interface.
+
+Large typography.
+
+Flat design.
+
+Minimal chrome.
+
+No excessive cards.
+
+No excessive shadows.
+
+Sections:
+
+- Library
+- Currently Reading
+- Listening Now
+- Bookmarks
+- Downloads
+
+Use fluid SwiftUI animations.
+
+## Navigation
+
+Tab Bar:
+
+- Library
+- Reader
+- Audio
+- Settings
+
+Support iPad split view layouts.
+
+## Accessibility
+
+Support:
+
+- VoiceOver
+- Dynamic Type
+- High Contrast
+- Switch Control
+- Keyboard Navigation
+
+## Privacy
+
+No analytics.
+
+No tracking.
+
+No telemetry.
+
+No required accounts.
+
+Everything remains on device.
+
+## Deliverables
+
+Generate:
+
+1. Complete Xcode project.
+2. SwiftUI implementation.
+3. SwiftData schema.
+4. EPUB reader implementation.
+5. PDF reader implementation.
+6. AVSpeechSynthesizer integration.
+7. Metro-inspired design system.
+8. iPhone and iPad layouts.
+9. Test suite.
+10. App Store submission preparation.
+11. Full documentation.
+
+The final result should feel like the application Microsoft would have built if Windows Phone had evolved into a modern ebook and audiobook platform on iOS.
